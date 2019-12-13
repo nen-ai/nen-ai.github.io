@@ -61,7 +61,8 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    logoElem.innerHTML = 'JULY <span>PORN</span><span class="flag">七色</span>'
+    // logoElem.innerHTML = 'JULY <span>PORN</span><span class="flag">七色</span>'
+    logoElem.innerHTML = '<img src="logo.png">'
     mainElem.appendChild(logoElem);
 
     // newest urls
