@@ -80,19 +80,3 @@ a, a:active, a:hover, a:focus, a:visited{
     font-weight: 200;
     cursor: pointer;
 }
-
-.brand span {
-    color: #ed2333;
-    font-weight: 200;
-}
-.brand span.flag {
-    color: #fff;
-    background: #ed2333;
-    border-radius: 0.25rem;
-    font-size: 16px;
-    font-weight: bold;
-    display: inline-block;
-    padding: 0 5px;
-    margin-left: 5px;
-    line-height: 30px;
-}
