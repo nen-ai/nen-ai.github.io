@@ -2,16 +2,15 @@ var emails = [
     '3dizhi@gmail.com'
 ];
 var newestUrls = [
-    'https://k071.xyz',
-    'https://02be.xyz',
+    'https://91yuse.com',
+    'https://yuese.me'
 ];
 var otherUrls = [
-    'https://3dizhi.github.io/',
-    'https://july50.com',
+    'https://3dizhi.github.io/'
 ];
 var foreverUrls = [
-    'https://julyporn.com',
-    'https://www.julyporn.com',
+    'https://nen.ai',
+    'https://www.nen.ai'
 ];
 var notices = [
     '* 我們推薦PC和Andriod手機用戶使用Chrome(谷歌)瀏覽器訪問，iPhone用戶我們建立您使用手機自帶Safria瀏覽器訪問。',
@@ -61,12 +60,11 @@ window.onload = function () {
     var logoElem = document.createElement('div');
     logoElem.setAttribute('class', 'brand');
     logoElem.setAttribute('id', 'logo');
-    // logoElem.innerHTML = 'JULY <span>PORN</span><span class="flag">七色</span>'
     logoElem.innerHTML = '<img src="logo.png">'
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '請使用https://協議訪問JULYPORN'});
+    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '請使用https://協議訪問nen.ai'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
