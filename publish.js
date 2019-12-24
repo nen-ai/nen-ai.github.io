@@ -1,12 +1,12 @@
 var emails = [
-    '3dizhi@gmail.com'
+    'nen.dizhi@gmail.com'
 ];
 var newestUrls = [
     'https://91yuse.com',
     'https://yuese.me'
 ];
 var otherUrls = [
-    'https://3dizhi.github.io/'
+    'https://nen-ai.github.io/'
 ];
 var foreverUrls = [
     'https://nen.ai',
