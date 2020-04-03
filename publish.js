@@ -2,8 +2,8 @@ var emails = [
     'nen.dizhi@gmail.com'
 ];
 var newestUrls = [
-    'https://91yuse.com',
-    'https://yuese.me'
+    'https://nen.life',
+    'https://nen.rocks'
 ];
 var otherUrls = [
     'https://nen-ai.github.io/'
