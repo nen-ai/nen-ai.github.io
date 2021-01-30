@@ -63,7 +63,7 @@ window.onload = function () {
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问nen.ai'});
+    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '地址不定期，访问不了就来这里找新地址！'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
