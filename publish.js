@@ -9,13 +9,12 @@ var otherUrls = [
     'https://nen-ai.github.io/'
 ];
 var foreverUrls = [
-    'https://nen.ai',
-    'https://www.nen.ai'
+    'https://nen.ai'
 ];
 var notices = [
-    '* 我們推薦PC和Andriod手機用戶使用Chrome(谷歌)瀏覽器訪問，iPhone用戶我們建立您使用手機自帶Safria瀏覽器訪問。',
-    '* 為了防止域名劫持而無法訪問，請設置手機和PC的DNS，我們推薦使用8.8.8.8和1.1.1.1。',
-    '* 大陸地區用戶我們建議您可以使用VPN或者代理的方式來訪問我們的永久地址。',
+    '* 我们推荐PC和Andriod手机用户使用Chrome(谷歌)浏览器访问，iPhone用户我们建立您使用手机自带Safria浏览器访问。 ',
+    '* 为了防止域名劫持而无法访问，请设置手机和PC的DNS，我们推荐使用8.8.8.8和1.1.1.1。 ',
+    '* 大陆地区用户我们建议您可以使用VPN或者代理的方式来访问我们的永久地址。 ',
 ];
 
 function createFieldElem(option) {
@@ -64,15 +63,15 @@ window.onload = function () {
     mainElem.appendChild(logoElem);
 
     // newest urls
-    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '請使用https://協議訪問nen.ai'});
+    var newestFieldElem = createFieldElem({title: '最新地址', items: newestUrls, text: '请使用https://协议访问nen.ai'});
     mainElem.appendChild(newestFieldElem);
 
     // other urls
-    var otherFieldElem = createFieldElem({title: '收藏地址發布頁面', items: otherUrls});
+    var otherFieldElem = createFieldElem({title: '收藏地址发布页面', items: otherUrls});
     mainElem.appendChild(otherFieldElem);
 
     // email
-    var mailFieldElem = createFieldElem({title: '發送郵件獲得', items: emails, plainText: true});
+    var mailFieldElem = createFieldElem({title: '发送邮件获得', items: emails, plainText: true});
     mainElem.appendChild(mailFieldElem);
 
     // forever urls
@@ -80,6 +79,6 @@ window.onload = function () {
     mainElem.appendChild(foreverFieldElem);
 
     // Description
-    var noticeFieldElem = createFieldElem({title: '注意事項', items: notices, plainText: true, classStr: 'desc'});
+    var noticeFieldElem = createFieldElem({title: '注意事项', items: notices, plainText: true, classStr: 'desc'});
     mainElem.appendChild(noticeFieldElem);
 }
